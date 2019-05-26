@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75033F3A1B3B7DAC00934A91 /* playerLeftSide.png in Resources */ = {isa = PBXBuildFile; fileRef = 75033F391B3B7DAC00934A91 /* playerLeftSide.png */; };
+		750B95E01D32D00600554CE4 /* goldCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 750B95DF1D32D00600554CE4 /* goldCoin.png */; };
+		750B95E21D330F3100554CE4 /* coinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 750B95E11D330F3100554CE4 /* coinSound.mp3 */; };
+		750FE8441C13A1FE00BFCE40 /* FatZombie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 750FE8431C13A1FE00BFCE40 /* FatZombie.atlas */; };
+		7520BD3A1BC9C56E00132D83 /* zombieDie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7520BD391BC9C56E00132D83 /* zombieDie.atlas */; };
+		75232FEB1BAF663F0071875A /* Bubble - Heart 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 75232FEA1BAF663F0071875A /* Bubble - Heart 001.png */; };
+		75267B1E1BBF64720081CB1A /* 11442_American_Swiss_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 75267B1D1BBF64720081CB1A /* 11442_American_Swiss_LOGO.png */; };
+		752816171C25DF9100D593AC /* wallCrumble1.png in Resources */ = {isa = PBXBuildFile; fileRef = 752816161C25DF9100D593AC /* wallCrumble1.png */; };
+		752AA9351C5410F700DF898C /* Shop_Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752AA9341C5410F700DF898C /* Shop_Scene.swift */; };
+		752DE5711B920E8A003271EF /* healthBarFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 752DE56F1B920E8A003271EF /* healthBarFrame.png */; };
+		752DE5721B920E8A003271EF /* healthBarfill.png in Resources */ = {isa = PBXBuildFile; fileRef = 752DE5701B920E8A003271EF /* healthBarfill.png */; };
+		7542A2011B2B6CC000174AA9 /* zombie.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7542A2001B2B6CC000174AA9 /* zombie.atlas */; };
+		7542A2051B2B7F0000174AA9 /* shootButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7542A2041B2B7F0000174AA9 /* shootButton.png */; };
+		7542A20B1B2B83B100174AA9 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7542A20A1B2B83B100174AA9 /* bullet.png */; };
+		754A77391BA918FE004691B1 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 754A77381BA918FE004691B1 /* playButton.png */; };
+		754ED1361BE032BB001F7E43 /* Points10.png in Resources */ = {isa = PBXBuildFile; fileRef = 754ED1351BE032BB001F7E43 /* Points10.png */; };
+		7552A94E1D31E5C300A59800 /* bronzeCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7552A9481D31E5C300A59800 /* bronzeCoin.png */; };
+		7552A94F1D31E5C300A59800 /* silverCoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7552A9491D31E5C300A59800 /* silverCoin.png */; };
+		7552A9501D31E5C300A59800 /* coinStack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7552A94A1D31E5C300A59800 /* coinStack.png */; };
+		7552A9511D31E5C300A59800 /* goldBars.png in Resources */ = {isa = PBXBuildFile; fileRef = 7552A94B1D31E5C300A59800 /* goldBars.png */; };
+		7552A9531D31E5C300A59800 /* goldBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7552A94D1D31E5C300A59800 /* goldBar.png */; };
+		7552A9551D31ECE800A59800 /* NewLevelSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7552A9541D31ECE800A59800 /* NewLevelSound.mp3 */; };
+		7554E2FA1C1496BB00BF9208 /* healthBarAnimation.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7554E2F91C1496BB00BF9208 /* healthBarAnimation.atlas */; };
+		7562353C1CA710B6003824E1 /* zombieMod.png in Resources */ = {isa = PBXBuildFile; fileRef = 7562353B1CA710B6003824E1 /* zombieMod.png */; };
+		756235421CA87D04003824E1 /* meleeReady.png in Resources */ = {isa = PBXBuildFile; fileRef = 756235411CA87D04003824E1 /* meleeReady.png */; };
+		756235441CA87D0E003824E1 /* meleeButtonAnimation.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 756235431CA87D0E003824E1 /* meleeButtonAnimation.atlas */; };
+		7569C7FD20AA1F6100D581A0 /* zombie_background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7569C7FC20AA1F6100D581A0 /* zombie_background_music.mp3 */; };
+		7571980320AB642500ED32F7 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571980220AB642500ED32F7 /* Zombie.swift */; };
+		7571980720ACE19800ED32F7 /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7571980620ACE19800ED32F7 /* Physics.swift */; };
+		7574A31A1CE174A800BF309C /* Points50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7574A3191CE174A800BF309C /* Points50.png */; };
+		758E601C1B238B71009664B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E601B1B238B71009664B4 /* AppDelegate.swift */; };
+		758E601E1B238B71009664B4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 758E601D1B238B71009664B4 /* GameScene.sks */; };
+		758E60201B238B71009664B4 /* Start_Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E601F1B238B71009664B4 /* Start_Scene.swift */; };
+		758E60221B238B71009664B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E60211B238B71009664B4 /* GameViewController.swift */; };
+		758E60251B238B71009664B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758E60231B238B71009664B4 /* Main.storyboard */; };
+		758E60271B238B71009664B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758E60261B238B71009664B4 /* Images.xcassets */; };
+		758E602A1B238B71009664B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758E60281B238B71009664B4 /* LaunchScreen.xib */; };
+		758E60361B238B71009664B4 /* ZombieShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E60351B238B71009664B4 /* ZombieShooterTests.swift */; };
+		758E60401B238FAC009664B4 /* Main_Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E603F1B238FAC009664B4 /* Main_Scene.swift */; };
+		758E60471B23963E009664B4 /* fireflies.sks in Resources */ = {isa = PBXBuildFile; fileRef = 758E60451B23963E009664B4 /* fireflies.sks */; };
+		758E60481B23963E009664B4 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 758E60461B23963E009664B4 /* spark.png */; };
+		758E605C1B23D81B009664B4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 758E605B1B23D81B009664B4 /* background.png */; };
+		758E60621B23F4A7009664B4 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 758E60611B23F4A7009664B4 /* player.png */; };
+		758E60691B242424009664B4 /* buttonLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 758E60671B242424009664B4 /* buttonLeft.png */; };
+		758E606A1B242424009664B4 /* buttonRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 758E60681B242424009664B4 /* buttonRight.png */; };
+		758F83AE1BE53F7C007DE970 /* HealthPack.png in Resources */ = {isa = PBXBuildFile; fileRef = 758F83AD1BE53F7C007DE970 /* HealthPack.png */; };
+		758F83B01BE54031007DE970 /* ammobox.png in Resources */ = {isa = PBXBuildFile; fileRef = 758F83AF1BE54031007DE970 /* ammobox.png */; };
+		758F83B21BE54463007DE970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758F83B11BE54463007DE970 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7594576B1BD2DCB300183B82 /* zombie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7594576A1BD2DCB300183B82 /* zombie.png */; };
+		759A54721BA5FAF4006685F0 /* pausedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 759A54711BA5FAF4006685F0 /* pausedButton.png */; };
+		759FE5F41C48861900573791 /* meleeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 759FE5F31C48861900573791 /* meleeButton.png */; };
+		75A5F15F20C0780B00078576 /* Vomit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5F15E20C0780B00078576 /* Vomit.swift */; };
+		75AB75501BFFF53A00AB956F /* bonusmultiplierx5.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AB754F1BFFF53A00AB956F /* bonusmultiplierx5.png */; };
+		75B6D0551DC51DAA00E79296 /* gunshot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75B6D0541DC51DAA00E79296 /* gunshot.wav */; };
+		75C647CE1D2F741F00ACF23A /* zombieDeath.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647CD1D2F741F00ACF23A /* zombieDeath.mp3 */; };
+		75C647D01D2F745500ACF23A /* fatZombieAttack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647CF1D2F745500ACF23A /* fatZombieAttack.mp3 */; };
+		75C647D21D2F74A700ACF23A /* gameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647D11D2F74A700ACF23A /* gameOver.mp3 */; };
+		75C647D41D301B9E00ACF23A /* gunshot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647D31D301B9E00ACF23A /* gunshot.mp3 */; };
+		75C647D81D301C5100ACF23A /* melee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647D71D301C5100ACF23A /* melee.mp3 */; };
+		75C647DA1D301E6600ACF23A /* reload_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C647D91D301E6600ACF23A /* reload_button.png */; };
+		75C647DC1D3035E100ACF23A /* reload.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647DB1D3035E100ACF23A /* reload.mp3 */; };
+		75C647DE1D3035E700ACF23A /* reload2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647DD1D3035E700ACF23A /* reload2.mp3 */; };
+		75C647E01D3036D400ACF23A /* zombieAttackNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647DF1D3036D400ACF23A /* zombieAttackNoise.mp3 */; };
+		75C647E21D3036DA00ACF23A /* zombiesound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647E11D3036DA00ACF23A /* zombiesound2.mp3 */; };
+		75C647E41D3036E800ACF23A /* zombie vomit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647E31D3036E800ACF23A /* zombie vomit.mp3 */; };
+		75C647E61D3036F800ACF23A /* zombiesound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75C647E51D3036F800ACF23A /* zombiesound1.mp3 */; };
+		75CCF8931D5A730D004A4F40 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CCF8921D5A730D004A4F40 /* AVFoundation.framework */; };
+		75D5BE0B1B8374540046D04B /* zombieFight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 75D5BE0A1B8374540046D04B /* zombieFight.atlas */; };
+		75D835A71C01144400A9A0A1 /* Wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D835A61C01144400A9A0A1 /* Wall.png */; };
+		75D835AB1C01226900A9A0A1 /* wall2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D835AA1C01226900A9A0A1 /* wall2.png */; };
+		75D835AD1C01235D00A9A0A1 /* wall3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D835AC1C01235D00A9A0A1 /* wall3.png */; };
+		75D835AF1C0139DC00A9A0A1 /* vomitZombieMove.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 75D835AE1C0139DC00A9A0A1 /* vomitZombieMove.atlas */; };
+		75D835B31C023AB200A9A0A1 /* vomitZombieAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 75D835B21C023AB200A9A0A1 /* vomitZombieAttack.atlas */; };
+		75D835B91C02543000A9A0A1 /* vomitAnimation.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 75D835B81C02543000A9A0A1 /* vomitAnimation.atlas */; };
+		75DAE3671BDC45C600085E02 /* Sword 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 75DAE3661BDC45C600085E02 /* Sword 001.png */; };
+		75E304CB1B9B8865007E163D /* muzzleFlash.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E304CA1B9B8865007E163D /* muzzleFlash.png */; };
+		75E89CC91B24ADEE00055ACA /* gameTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E89CC81B24ADEE00055ACA /* gameTitle.png */; };
+		75E89CD01B24E5AE00055ACA /* playerRightSide.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E89CCF1B24E5AE00055ACA /* playerRightSide.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758E60301B238B71009664B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758E600E1B238B71009664B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758E60151B238B71009664B4;
+			remoteInfo = ZombieShooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75033F391B3B7DAC00934A91 /* playerLeftSide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerLeftSide.png; sourceTree = "<group>"; };
+		750B95DF1D32D00600554CE4 /* goldCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldCoin.png; sourceTree = "<group>"; };
+		750B95E11D330F3100554CE4 /* coinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coinSound.mp3; sourceTree = "<group>"; };
+		750FE8431C13A1FE00BFCE40 /* FatZombie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = FatZombie.atlas; sourceTree = "<group>"; };
+		7520BD391BC9C56E00132D83 /* zombieDie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = zombieDie.atlas; sourceTree = "<group>"; };
+		75232FEA1BAF663F0071875A /* Bubble - Heart 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble - Heart 001.png"; sourceTree = "<group>"; };
+		75267B1D1BBF64720081CB1A /* 11442_American_Swiss_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11442_American_Swiss_LOGO.png; sourceTree = "<group>"; };
+		752816161C25DF9100D593AC /* wallCrumble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallCrumble1.png; sourceTree = "<group>"; };
+		752AA9341C5410F700DF898C /* Shop_Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop_Scene.swift; sourceTree = "<group>"; };
+		752DE56F1B920E8A003271EF /* healthBarFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthBarFrame.png; sourceTree = "<group>"; };
+		752DE5701B920E8A003271EF /* healthBarfill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthBarfill.png; sourceTree = "<group>"; };
+		7542A2001B2B6CC000174AA9 /* zombie.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = zombie.atlas; sourceTree = "<group>"; };
+		7542A2041B2B7F0000174AA9 /* shootButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shootButton.png; sourceTree = "<group>"; };
+		7542A20A1B2B83B100174AA9 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		754A77381BA918FE004691B1 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		754ED1351BE032BB001F7E43 /* Points10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Points10.png; sourceTree = "<group>"; };
+		7552A9481D31E5C300A59800 /* bronzeCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bronzeCoin.png; sourceTree = "<group>"; };
+		7552A9491D31E5C300A59800 /* silverCoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silverCoin.png; sourceTree = "<group>"; };
+		7552A94A1D31E5C300A59800 /* coinStack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinStack.png; sourceTree = "<group>"; };
+		7552A94B1D31E5C300A59800 /* goldBars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldBars.png; sourceTree = "<group>"; };
+		7552A94D1D31E5C300A59800 /* goldBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldBar.png; sourceTree = "<group>"; };
+		7552A9541D31ECE800A59800 /* NewLevelSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NewLevelSound.mp3; sourceTree = "<group>"; };
+		7554E2F91C1496BB00BF9208 /* healthBarAnimation.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = healthBarAnimation.atlas; sourceTree = "<group>"; };
+		7562353B1CA710B6003824E1 /* zombieMod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombieMod.png; sourceTree = "<group>"; };
+		756235411CA87D04003824E1 /* meleeReady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meleeReady.png; sourceTree = "<group>"; };
+		756235431CA87D0E003824E1 /* meleeButtonAnimation.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = meleeButtonAnimation.atlas; sourceTree = "<group>"; };
+		7569C7FC20AA1F6100D581A0 /* zombie_background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zombie_background_music.mp3; sourceTree = "<group>"; };
+		7571980220AB642500ED32F7 /* Zombie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		7571980620ACE19800ED32F7 /* Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		7574A3191CE174A800BF309C /* Points50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Points50.png; sourceTree = "<group>"; };
+		7580F2FF1CE14E4300C39643 /* ZombieShooter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZombieShooter.entitlements; sourceTree = "<group>"; };
+		758E60161B238B71009664B4 /* Zombie Blood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Blood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758E601A1B238B71009664B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758E601B1B238B71009664B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758E601D1B238B71009664B4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		758E601F1B238B71009664B4 /* Start_Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start_Scene.swift; sourceTree = "<group>"; };
+		758E60211B238B71009664B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		758E60241B238B71009664B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758E60261B238B71009664B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		758E60291B238B71009664B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		758E602F1B238B71009664B4 /* Zombie Blood.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zombie Blood.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758E60341B238B71009664B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758E60351B238B71009664B4 /* ZombieShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZombieShooterTests.swift; sourceTree = "<group>"; };
+		758E603F1B238FAC009664B4 /* Main_Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_Scene.swift; sourceTree = "<group>"; };
+		758E60451B23963E009664B4 /* fireflies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fireflies.sks; sourceTree = "<group>"; };
+		758E60461B23963E009664B4 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		758E605B1B23D81B009664B4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		758E60611B23F4A7009664B4 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		758E60671B242424009664B4 /* buttonLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLeft.png; sourceTree = "<group>"; };
+		758E60681B242424009664B4 /* buttonRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonRight.png; sourceTree = "<group>"; };
+		758F83AD1BE53F7C007DE970 /* HealthPack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthPack.png; sourceTree = "<group>"; };
+		758F83AF1BE54031007DE970 /* ammobox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ammobox.png; sourceTree = "<group>"; };
+		758F83B11BE54463007DE970 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7594576A1BD2DCB300183B82 /* zombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie.png; sourceTree = "<group>"; };
+		759A54711BA5FAF4006685F0 /* pausedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausedButton.png; sourceTree = "<group>"; };
+		759FE5F31C48861900573791 /* meleeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meleeButton.png; sourceTree = "<group>"; };
+		75A5F15E20C0780B00078576 /* Vomit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vomit.swift; sourceTree = "<group>"; };
+		75AB754F1BFFF53A00AB956F /* bonusmultiplierx5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonusmultiplierx5.png; sourceTree = "<group>"; };
+		75B6D0541DC51DAA00E79296 /* gunshot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gunshot.wav; sourceTree = "<group>"; };
+		75C647CD1D2F741F00ACF23A /* zombieDeath.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zombieDeath.mp3; sourceTree = "<group>"; };
+		75C647CF1D2F745500ACF23A /* fatZombieAttack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fatZombieAttack.mp3; sourceTree = "<group>"; };
+		75C647D11D2F74A700ACF23A /* gameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOver.mp3; sourceTree = "<group>"; };
+		75C647D31D301B9E00ACF23A /* gunshot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gunshot.mp3; sourceTree = "<group>"; };
+		75C647D71D301C5100ACF23A /* melee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = melee.mp3; sourceTree = "<group>"; };
+		75C647D91D301E6600ACF23A /* reload_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_button.png; sourceTree = "<group>"; };
+		75C647DB1D3035E100ACF23A /* reload.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reload.mp3; sourceTree = "<group>"; };
+		75C647DD1D3035E700ACF23A /* reload2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reload2.mp3; sourceTree = "<group>"; };
+		75C647DF1D3036D400ACF23A /* zombieAttackNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zombieAttackNoise.mp3; sourceTree = "<group>"; };
+		75C647E11D3036DA00ACF23A /* zombiesound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zombiesound2.mp3; sourceTree = "<group>"; };
+		75C647E31D3036E800ACF23A /* zombie vomit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "zombie vomit.mp3"; sourceTree = "<group>"; };
+		75C647E51D3036F800ACF23A /* zombiesound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zombiesound1.mp3; sourceTree = "<group>"; };
+		75CCF8921D5A730D004A4F40 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		75D5BE0A1B8374540046D04B /* zombieFight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = zombieFight.atlas; sourceTree = "<group>"; };
+		75D835A61C01144400A9A0A1 /* Wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wall.png; sourceTree = "<group>"; };
+		75D835AA1C01226900A9A0A1 /* wall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall2.png; sourceTree = "<group>"; };
+		75D835AC1C01235D00A9A0A1 /* wall3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall3.png; sourceTree = "<group>"; };
+		75D835AE1C0139DC00A9A0A1 /* vomitZombieMove.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = vomitZombieMove.atlas; sourceTree = "<group>"; };
+		75D835B21C023AB200A9A0A1 /* vomitZombieAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = vomitZombieAttack.atlas; sourceTree = "<group>"; };
+		75D835B81C02543000A9A0A1 /* vomitAnimation.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = vomitAnimation.atlas; sourceTree = "<group>"; };
+		75DAE3661BDC45C600085E02 /* Sword 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sword 001.png"; sourceTree = "<group>"; };
+		75E304CA1B9B8865007E163D /* muzzleFlash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muzzleFlash.png; sourceTree = "<group>"; };
+		75E89CC81B24ADEE00055ACA /* gameTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameTitle.png; sourceTree = "<group>"; };
+		75E89CCF1B24E5AE00055ACA /* playerRightSide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerRightSide.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758E60131B238B71009664B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CCF8931D5A730D004A4F40 /* AVFoundation.framework in Frameworks */,
+				758F83B21BE54463007DE970 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758E602C1B238B71009664B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		758E600D1B238B71009664B4 = {
+			isa = PBXGroup;
+			children = (
+				75CCF8921D5A730D004A4F40 /* AVFoundation.framework */,
+				758F83B11BE54463007DE970 /* Foundation.framework */,
+				758E60181B238B71009664B4 /* ZombieShooter */,
+				758E60321B238B71009664B4 /* ZombieShooterTests */,
+				758E60171B238B71009664B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		758E60171B238B71009664B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758E60161B238B71009664B4 /* Zombie Blood.app */,
+				758E602F1B238B71009664B4 /* Zombie Blood.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758E60181B238B71009664B4 /* ZombieShooter */ = {
+			isa = PBXGroup;
+			children = (
+				7580F2FF1CE14E4300C39643 /* ZombieShooter.entitlements */,
+				758E60231B238B71009664B4 /* Main.storyboard */,
+				758E60281B238B71009664B4 /* LaunchScreen.xib */,
+				758E601B1B238B71009664B4 /* AppDelegate.swift */,
+				758E601F1B238B71009664B4 /* Start_Scene.swift */,
+				7571980220AB642500ED32F7 /* Zombie.swift */,
+				75A5F15E20C0780B00078576 /* Vomit.swift */,
+				758E603F1B238FAC009664B4 /* Main_Scene.swift */,
+				7571980620ACE19800ED32F7 /* Physics.swift */,
+				752AA9341C5410F700DF898C /* Shop_Scene.swift */,
+				758E60211B238B71009664B4 /* GameViewController.swift */,
+				758E601D1B238B71009664B4 /* GameScene.sks */,
+				758E60461B23963E009664B4 /* spark.png */,
+				758E60451B23963E009664B4 /* fireflies.sks */,
+				758E60261B238B71009664B4 /* Images.xcassets */,
+				758E60191B238B71009664B4 /* Supporting Files */,
+			);
+			path = ZombieShooter;
+			sourceTree = "<group>";
+		};
+		758E60191B238B71009664B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C647E91D30376500ACF23A /* Animations */,
+				75C647E81D30373200ACF23A /* Images */,
+				75C647E71D30370800ACF23A /* Music/Sound Effects */,
+				758E601A1B238B71009664B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		758E60321B238B71009664B4 /* ZombieShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				758E60351B238B71009664B4 /* ZombieShooterTests.swift */,
+				758E60331B238B71009664B4 /* Supporting Files */,
+			);
+			path = ZombieShooterTests;
+			sourceTree = "<group>";
+		};
+		758E60331B238B71009664B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				758E60341B238B71009664B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75C647E71D30370800ACF23A /* Music/Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				750B95E11D330F3100554CE4 /* coinSound.mp3 */,
+				7552A9541D31ECE800A59800 /* NewLevelSound.mp3 */,
+				75C647E31D3036E800ACF23A /* zombie vomit.mp3 */,
+				75C647E11D3036DA00ACF23A /* zombiesound2.mp3 */,
+				75C647DF1D3036D400ACF23A /* zombieAttackNoise.mp3 */,
+				75C647E51D3036F800ACF23A /* zombiesound1.mp3 */,
+				75C647CF1D2F745500ACF23A /* fatZombieAttack.mp3 */,
+				75C647D71D301C5100ACF23A /* melee.mp3 */,
+				75C647DD1D3035E700ACF23A /* reload2.mp3 */,
+				75C647DB1D3035E100ACF23A /* reload.mp3 */,
+				75C647D31D301B9E00ACF23A /* gunshot.mp3 */,
+				75B6D0541DC51DAA00E79296 /* gunshot.wav */,
+				75C647D11D2F74A700ACF23A /* gameOver.mp3 */,
+				75C647CD1D2F741F00ACF23A /* zombieDeath.mp3 */,
+				7569C7FC20AA1F6100D581A0 /* zombie_background_music.mp3 */,
+			);
+			name = "Music/Sound Effects";
+			sourceTree = "<group>";
+		};
+		75C647E81D30373200ACF23A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7552A9481D31E5C300A59800 /* bronzeCoin.png */,
+				7552A9491D31E5C300A59800 /* silverCoin.png */,
+				750B95DF1D32D00600554CE4 /* goldCoin.png */,
+				7552A94A1D31E5C300A59800 /* coinStack.png */,
+				7552A94B1D31E5C300A59800 /* goldBars.png */,
+				7552A94D1D31E5C300A59800 /* goldBar.png */,
+				75D835AC1C01235D00A9A0A1 /* wall3.png */,
+				759FE5F31C48861900573791 /* meleeButton.png */,
+				75C647D91D301E6600ACF23A /* reload_button.png */,
+				75E89CCF1B24E5AE00055ACA /* playerRightSide.png */,
+				75AB754F1BFFF53A00AB956F /* bonusmultiplierx5.png */,
+				756235411CA87D04003824E1 /* meleeReady.png */,
+				75D835A61C01144400A9A0A1 /* Wall.png */,
+				752816161C25DF9100D593AC /* wallCrumble1.png */,
+				75D835AA1C01226900A9A0A1 /* wall2.png */,
+				7562353B1CA710B6003824E1 /* zombieMod.png */,
+				7594576A1BD2DCB300183B82 /* zombie.png */,
+				75E304CA1B9B8865007E163D /* muzzleFlash.png */,
+				752DE5701B920E8A003271EF /* healthBarfill.png */,
+				759A54711BA5FAF4006685F0 /* pausedButton.png */,
+				752DE56F1B920E8A003271EF /* healthBarFrame.png */,
+				75267B1D1BBF64720081CB1A /* 11442_American_Swiss_LOGO.png */,
+				75DAE3661BDC45C600085E02 /* Sword 001.png */,
+				754A77381BA918FE004691B1 /* playButton.png */,
+				758F83AD1BE53F7C007DE970 /* HealthPack.png */,
+				758F83AF1BE54031007DE970 /* ammobox.png */,
+				754ED1351BE032BB001F7E43 /* Points10.png */,
+				7574A3191CE174A800BF309C /* Points50.png */,
+				75232FEA1BAF663F0071875A /* Bubble - Heart 001.png */,
+				75033F391B3B7DAC00934A91 /* playerLeftSide.png */,
+				7542A2041B2B7F0000174AA9 /* shootButton.png */,
+				75E89CC81B24ADEE00055ACA /* gameTitle.png */,
+				7542A20A1B2B83B100174AA9 /* bullet.png */,
+				758E60671B242424009664B4 /* buttonLeft.png */,
+				758E60681B242424009664B4 /* buttonRight.png */,
+				758E60611B23F4A7009664B4 /* player.png */,
+				758E605B1B23D81B009664B4 /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		75C647E91D30376500ACF23A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				75D835AE1C0139DC00A9A0A1 /* vomitZombieMove.atlas */,
+				750FE8431C13A1FE00BFCE40 /* FatZombie.atlas */,
+				75D835B81C02543000A9A0A1 /* vomitAnimation.atlas */,
+				7554E2F91C1496BB00BF9208 /* healthBarAnimation.atlas */,
+				756235431CA87D0E003824E1 /* meleeButtonAnimation.atlas */,
+				7520BD391BC9C56E00132D83 /* zombieDie.atlas */,
+				75D5BE0A1B8374540046D04B /* zombieFight.atlas */,
+				75D835B21C023AB200A9A0A1 /* vomitZombieAttack.atlas */,
+				7542A2001B2B6CC000174AA9 /* zombie.atlas */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758E60151B238B71009664B4 /* Zombie Blood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758E60391B238B71009664B4 /* Build configuration list for PBXNativeTarget "Zombie Blood" */;
+			buildPhases = (
+				758E60121B238B71009664B4 /* Sources */,
+				758E60131B238B71009664B4 /* Frameworks */,
+				758E60141B238B71009664B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zombie Blood";
+			productName = ZombieShooter;
+			productReference = 758E60161B238B71009664B4 /* Zombie Blood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758E602E1B238B71009664B4 /* Zombie BloodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758E603C1B238B71009664B4 /* Build configuration list for PBXNativeTarget "Zombie BloodTests" */;
+			buildPhases = (
+				758E602B1B238B71009664B4 /* Sources */,
+				758E602C1B238B71009664B4 /* Frameworks */,
+				758E602D1B238B71009664B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758E60311B238B71009664B4 /* PBXTargetDependency */,
+			);
+			name = "Zombie BloodTests";
+			productName = ZombieShooterTests;
+			productReference = 758E602F1B238B71009664B4 /* Zombie Blood.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758E600E1B238B71009664B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = GoLock;
+				TargetAttributes = {
+					758E60151B238B71009664B4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 33VA97997A;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					758E602E1B238B71009664B4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0830;
+						TestTargetID = 758E60151B238B71009664B4;
+					};
+				};
+			};
+			buildConfigurationList = 758E60111B238B71009664B4 /* Build configuration list for PBXProject "Zombie Blood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758E600D1B238B71009664B4;
+			productRefGroup = 758E60171B238B71009664B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758E60151B238B71009664B4 /* Zombie Blood */,
+				758E602E1B238B71009664B4 /* Zombie BloodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758E60141B238B71009664B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7569C7FD20AA1F6100D581A0 /* zombie_background_music.mp3 in Resources */,
+				7520BD3A1BC9C56E00132D83 /* zombieDie.atlas in Resources */,
+				750B95E21D330F3100554CE4 /* coinSound.mp3 in Resources */,
+				758E602A1B238B71009664B4 /* LaunchScreen.xib in Resources */,
+				7552A94F1D31E5C300A59800 /* silverCoin.png in Resources */,
+				75C647DA1D301E6600ACF23A /* reload_button.png in Resources */,
+				7574A31A1CE174A800BF309C /* Points50.png in Resources */,
+				75D835AB1C01226900A9A0A1 /* wall2.png in Resources */,
+				759A54721BA5FAF4006685F0 /* pausedButton.png in Resources */,
+				752DE5721B920E8A003271EF /* healthBarfill.png in Resources */,
+				75C647E01D3036D400ACF23A /* zombieAttackNoise.mp3 in Resources */,
+				7542A20B1B2B83B100174AA9 /* bullet.png in Resources */,
+				7552A9511D31E5C300A59800 /* goldBars.png in Resources */,
+				750FE8441C13A1FE00BFCE40 /* FatZombie.atlas in Resources */,
+				75D835AF1C0139DC00A9A0A1 /* vomitZombieMove.atlas in Resources */,
+				75267B1E1BBF64720081CB1A /* 11442_American_Swiss_LOGO.png in Resources */,
+				75C647D41D301B9E00ACF23A /* gunshot.mp3 in Resources */,
+				752816171C25DF9100D593AC /* wallCrumble1.png in Resources */,
+				75D835B31C023AB200A9A0A1 /* vomitZombieAttack.atlas in Resources */,
+				758E60621B23F4A7009664B4 /* player.png in Resources */,
+				75C647D01D2F745500ACF23A /* fatZombieAttack.mp3 in Resources */,
+				75D835AD1C01235D00A9A0A1 /* wall3.png in Resources */,
+				75033F3A1B3B7DAC00934A91 /* playerLeftSide.png in Resources */,
+				7542A2051B2B7F0000174AA9 /* shootButton.png in Resources */,
+				752DE5711B920E8A003271EF /* healthBarFrame.png in Resources */,
+				758E60271B238B71009664B4 /* Images.xcassets in Resources */,
+				7552A9531D31E5C300A59800 /* goldBar.png in Resources */,
+				758E60471B23963E009664B4 /* fireflies.sks in Resources */,
+				7542A2011B2B6CC000174AA9 /* zombie.atlas in Resources */,
+				7554E2FA1C1496BB00BF9208 /* healthBarAnimation.atlas in Resources */,
+				75C647DC1D3035E100ACF23A /* reload.mp3 in Resources */,
+				75DAE3671BDC45C600085E02 /* Sword 001.png in Resources */,
+				75C647CE1D2F741F00ACF23A /* zombieDeath.mp3 in Resources */,
+				75D835B91C02543000A9A0A1 /* vomitAnimation.atlas in Resources */,
+				75D835A71C01144400A9A0A1 /* Wall.png in Resources */,
+				758E601E1B238B71009664B4 /* GameScene.sks in Resources */,
+				758F83B01BE54031007DE970 /* ammobox.png in Resources */,
+				756235421CA87D04003824E1 /* meleeReady.png in Resources */,
+				754ED1361BE032BB001F7E43 /* Points10.png in Resources */,
+				75E304CB1B9B8865007E163D /* muzzleFlash.png in Resources */,
+				75C647E61D3036F800ACF23A /* zombiesound1.mp3 in Resources */,
+				759FE5F41C48861900573791 /* meleeButton.png in Resources */,
+				7552A94E1D31E5C300A59800 /* bronzeCoin.png in Resources */,
+				75D5BE0B1B8374540046D04B /* zombieFight.atlas in Resources */,
+				75E89CD01B24E5AE00055ACA /* playerRightSide.png in Resources */,
+				758F83AE1BE53F7C007DE970 /* HealthPack.png in Resources */,
+				7552A9501D31E5C300A59800 /* coinStack.png in Resources */,
+				75232FEB1BAF663F0071875A /* Bubble - Heart 001.png in Resources */,
+				75E89CC91B24ADEE00055ACA /* gameTitle.png in Resources */,
+				758E60481B23963E009664B4 /* spark.png in Resources */,
+				7594576B1BD2DCB300183B82 /* zombie.png in Resources */,
+				754A77391BA918FE004691B1 /* playButton.png in Resources */,
+				75C647D21D2F74A700ACF23A /* gameOver.mp3 in Resources */,
+				75C647DE1D3035E700ACF23A /* reload2.mp3 in Resources */,
+				758E60691B242424009664B4 /* buttonLeft.png in Resources */,
+				756235441CA87D0E003824E1 /* meleeButtonAnimation.atlas in Resources */,
+				758E605C1B23D81B009664B4 /* background.png in Resources */,
+				75C647D81D301C5100ACF23A /* melee.mp3 in Resources */,
+				75C647E21D3036DA00ACF23A /* zombiesound2.mp3 in Resources */,
+				750B95E01D32D00600554CE4 /* goldCoin.png in Resources */,
+				758E606A1B242424009664B4 /* buttonRight.png in Resources */,
+				75C647E41D3036E800ACF23A /* zombie vomit.mp3 in Resources */,
+				7562353C1CA710B6003824E1 /* zombieMod.png in Resources */,
+				758E60251B238B71009664B4 /* Main.storyboard in Resources */,
+				75B6D0551DC51DAA00E79296 /* gunshot.wav in Resources */,
+				7552A9551D31ECE800A59800 /* NewLevelSound.mp3 in Resources */,
+				75AB75501BFFF53A00AB956F /* bonusmultiplierx5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758E602D1B238B71009664B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758E60121B238B71009664B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E60401B238FAC009664B4 /* Main_Scene.swift in Sources */,
+				758E60201B238B71009664B4 /* Start_Scene.swift in Sources */,
+				758E60221B238B71009664B4 /* GameViewController.swift in Sources */,
+				7571980320AB642500ED32F7 /* Zombie.swift in Sources */,
+				752AA9351C5410F700DF898C /* Shop_Scene.swift in Sources */,
+				75A5F15F20C0780B00078576 /* Vomit.swift in Sources */,
+				7571980720ACE19800ED32F7 /* Physics.swift in Sources */,
+				758E601C1B238B71009664B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758E602B1B238B71009664B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758E60361B238B71009664B4 /* ZombieShooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		758E60311B238B71009664B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758E60151B238B71009664B4 /* Zombie Blood */;
+			targetProxy = 758E60301B238B71009664B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758E60231B238B71009664B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758E60241B238B71009664B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758E60281B238B71009664B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758E60291B238B71009664B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758E60371B238B71009664B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		758E60381B238B71009664B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758E603A1B238B71009664B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Slakter (883XF3W3UV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33VA97997A;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = ZombieShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoombieblood.David.co;
+				PRODUCT_NAME = "Zombie Blood";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		758E603B1B238B71009664B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Slakter (883XF3W3UV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33VA97997A;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = ZombieShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoombieblood.David.co;
+				PRODUCT_NAME = "Zombie Blood";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		758E603D1B238B71009664B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZombieShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GoLock.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Zombie Blood";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zombie Blood.app/Zombie Blood";
+			};
+			name = Debug;
+		};
+		758E603E1B238B71009664B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = ZombieShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GoLock.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Zombie Blood";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zombie Blood.app/Zombie Blood";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758E60111B238B71009664B4 /* Build configuration list for PBXProject "Zombie Blood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758E60371B238B71009664B4 /* Debug */,
+				758E60381B238B71009664B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758E60391B238B71009664B4 /* Build configuration list for PBXNativeTarget "Zombie Blood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758E603A1B238B71009664B4 /* Debug */,
+				758E603B1B238B71009664B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758E603C1B238B71009664B4 /* Build configuration list for PBXNativeTarget "Zombie BloodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758E603D1B238B71009664B4 /* Debug */,
+				758E603E1B238B71009664B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758E600E1B238B71009664B4 /* Project object */;
+}
